@@ -105,7 +105,7 @@ textarea {
    height: 150px;
 }
 
-.one, .two, .three, .four, .five, .six, .seven, .eight {
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten {
    width: 120px;
    height: 80px;
    background: red;
@@ -193,17 +193,34 @@ textarea {
    100% {opacity:0;}
 }
 @-webkit-keyframes seventh {
-  0%   {opacity:0;}
-  80%  {opacity:0.5;}
-  90%  {opacity:1;}
-  100% {opacity:0.5;}
+   0%   {opacity:0;}
+   60%  {opacity:0.5;}
+   70%  {opacity:1;}
+   80%  {opacity:0.5;}
+   100% {opacity:0;}
 }
 
 @-webkit-keyframes eighth {
-    0%   {opacity:0;}
-    90%  {opacity:0.5;}
-    100%  {opacity:1;}
+   0%   {opacity:0;}
+   70%  {opacity:0.5;}
+   80%  {opacity:1;}
+   90%  {opacity:0.5;}
+   100% {opacity:0;}
 }
+
+@-webkit-keyframes ninth {
+   0%   {opacity:0;}
+   80%  {opacity:0.5;}
+   90%  {opacity:1;}
+   100% {opacity:0.5;}
+}
+
+@-webkit-keyframes tenth {
+ 0%   {opacity:0;}
+ 90%  {opacity:0.5;}
+ 100%  {opacity:1;}
+}
+
 
 
 
